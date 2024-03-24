@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bddce9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.logo-container {
+    position: relative; /* Add relative positioning */
+}
+
+.logo {
+    width: 250px;
+    margin-bottom: 30px; /* Add some space below the logo */
+}
+
+.logo-text {
+    position: relative; /* Add absolute positioning */
+    top: 50%; /* Position at the vertical center */
+    left: 50%; /* Position at the horizontal center */
+    transform: translate(-50%, -50%); /* Center the text within the container */
+    font-size: 50px; /* Adjust the font size */
+    color: #74b484; 
+}
+
+.login-text {
+    font-size: 24px; /* Adjust the font size of the login text */
+}
+
+.login-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.input-wrapper {
+    margin-bottom: 15px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.login-input:focus {
+    outline: none;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}

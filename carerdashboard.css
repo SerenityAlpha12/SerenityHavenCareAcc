@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #fdf9f9;
+    overflow-y: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.createaccount {
+    background-color: #a4eeb4;
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.card {
+    background-color:rgb(227, 235, 230);
+    display: flex;
+    gap: 20px; /* Adjust the gap between user details and info cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    left: 1%;
+    top: 2%;
+    z-index: 1;
+
+}
+
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.fa-solid {
+    font-size: 30px;
+    color: #81CAC8;
+    margin-top: 5px;
+}
+
+.user-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.user-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #050505;
+}
+
+.info-cards-container {
+    display: flex;
+    gap: 15px; /* Adjust the gap between info cards */
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #98ecea;
+    width: 70px;
+    height: 80px;
+    border-radius: 10%;
+    color: #0c0c0c;
+}
+
+.info-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.info-details p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.dashboard-card {
+    width: 100%;
+    max-width: 900px;
+    margin: 90px auto;
+    padding: 20px;
+    background-color: rgba(129, 202, 200, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 120px; 
+}
+
+.card-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+
+.box {
+    text-align: center;
+    background-color:  rgba(92, 167, 165, 0.8);
+    width: 300px;
+    height: 170px;
+    margin: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.box1 {
+    text-align: center;
+    background-color: rgba(92, 167, 165, 0.8);
+    width: 300px;
+    height: 170px;
+    margin: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.box2 {
+    text-align: center;
+    background-color: rgba(92, 167, 165, 0.8);
+    width: 300px;
+    height: 170px;
+    margin: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.box i {
+    font-size: 50px;
+    color: #12706D;
+    margin-top: 10px;
+}
+
+.box1 i {
+    font-size: 50px;
+    color: #12706D;
+    margin-top: 20px;
+}
+.box2 i {
+    font-size: 50px;
+    color: #12706D;
+    margin-top: 20px;
+}
+
+.box p {
+    margin: 70px 0 0;
+    color: #070707;
+    font-size: 30px;
+}
+.box1 p {
+    margin: 70px 0 0;
+    color: #0c0c0c;
+    font-size: 30px;
+}
+
+.box2 p {
+    margin: 70px 0 0;
+    color: #0c0c0c;
+    font-size: 30px;
+}
+.calendar-box {
+    border: 1px solid #080808;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+}
+
+.calendar-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.calendar {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto; 
+    border-collapse: collapse; /* Collapse border spacing between table cells */
+    background-color:#81CAC8
+}
+
+.calendar caption {
+    font-size: 24px; 
+    font-weight: bold; 
+    padding: 10px 0; /* Add padding to the top and bottom of the caption */
+}
+
+.calendar th,
+.calendar td {
+    width: 50px; /* Set fixed width for table cells */
+    height: 50px; /* Set fixed height for table cells */
+    text-align: center; /* Center align content within table cells */
+    border: 1px solid #c7f3d0; /* Add border around table cells */
+}
+
+.calendar th {
+    background-color: #aee4f5; /* Light gray background color for table header */
+}
+
+.calendar td {
+    cursor: pointer; /* Change cursor to pointer when hovering over table cells */
+}
+
+.calendar td:hover {
+    background-color: #bdeec0; /* Lighter background color when hovering over table cells */
+}
+
